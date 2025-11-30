@@ -1,0 +1,20 @@
+# .gitignore
+
+# 1. Security (NEVER UPLOAD THESE)
+.streamlit/secrets.toml
+.env
+
+# 2. Python compiled files
+__pycache__/
+*.pyc
+
+# 3. Airflow Logs (Too large, not needed)
+logs/
+plugins/
+
+# 4. OS generated files
+.DS_Store
+
+# 5. Virtual Environment
+venv/
+env/
